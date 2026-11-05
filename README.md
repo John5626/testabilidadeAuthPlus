@@ -68,5 +68,3 @@ As cópias foram anonimizadas: caminhos, identificadores do produto, revisões p
 Hashes nos CSVs e no protocolo descrevem as fontes da coleta original. `source-export-hashes.json` distingue esses hashes dos bytes exportados; `SHA256SUMS` identifica os arquivos atuais. O protocolo anonimizado não é byte a byte o documento originalmente congelado.
 
 O armazenamento compartilhado é falso e em memória. O gate foi executado localmente; o workflow é apenas referência. Não houve dispositivo, armazenamento seguro nativo, serviços reais, CI hospedada ou deploy. Não se demonstra superioridade causal de widgets nem segurança geral da aplicação.
-
-Licença de redistribuição ainda deve ser definida pelos titulares; consulte `LICENSING.md`. A URL pública de avaliação deverá ser acrescentada pelos autores ao artigo depois da criação do repositório.
