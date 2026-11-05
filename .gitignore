@@ -1,0 +1,15 @@
+.dart_tool/
+build/
+.flutter-plugins*
+.packages
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.pem
+*.key
+local.properties
+research/estudo_regressoes/runs/**/replication-*/
+outputs/replication-*/

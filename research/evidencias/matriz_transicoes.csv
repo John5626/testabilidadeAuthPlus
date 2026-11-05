@@ -1,0 +1,7 @@
+scenario,predicted_assertions,base_assertions,expanded_assertions,pre_fix_conforming,post_fix_conforming,isolated_without_external_infrastructure
+C1,2,2,2,2,2,true
+C2,2,2,2,2,2,true
+C3,2,2,2,2,2,true
+C4,2,0,2,2,2,true
+C5,2,2,2,2,2,true
+C6,2,0,2,0,2,true

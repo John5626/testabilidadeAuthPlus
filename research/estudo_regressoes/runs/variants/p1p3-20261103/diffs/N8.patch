@@ -1,0 +1,15 @@
+warning: in the working copy of 'C:\artifact\research\estudo_regressoes\runs\variants\p1p3-20261103\n8-nominal-source.bin', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'C:\artifact\frontend\lib\src\features\studyapp\presentation\studyapp_root_view.dart', LF will be replaced by CRLF the next time Git touches it
+diff --git "a/C:\\artifact\\research\\estudo_regressoes\\runs\\variants\\p1p3-20261103\\n8-nominal-source.bin" "b/C:\\artifact\\frontend\\lib\\src\\features\\studyapp\\presentation\\studyapp_root_view.dart"
+index 5d0c41a..7fca1c6 100644
+--- "a/C:\\artifact\\research\\estudo_regressoes\\runs\\variants\\p1p3-20261103\\n8-nominal-source.bin"
++++ "b/C:\\artifact\\frontend\\lib\\src\\features\\studyapp\\presentation\\studyapp_root_view.dart"
+@@ -116,7 +116,7 @@ class StudyAppRootView extends StatelessWidget {
+               isBusy: controller.isBusy,
+               errorMessage: controller.errorMessage,
+               onVerify: controller.verifyMfa,
+-              onCancel: controller.leaveAuthenticationChallenge,
++              onCancel: controller.openLanding,
+             ),
+             StudyAppStage.invitation => AcceptTeamInvitationView(
+               key: const ValueKey('accept-invitation'),

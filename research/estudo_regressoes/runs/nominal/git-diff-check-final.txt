@@ -1,0 +1,4 @@
+exit_code=0
+command=git diff --check
+--- output ---
+No whitespace errors.

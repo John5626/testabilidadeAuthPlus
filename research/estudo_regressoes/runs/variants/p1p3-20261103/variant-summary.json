@@ -1,0 +1,122 @@
+[
+  {
+    "variant": "N1",
+    "strategy": "S2",
+    "n": 3,
+    "outcome": "detected_stable",
+    "classifications": "detected_assertion",
+    "median_ms": 9343,
+    "min_ms": 9337.0,
+    "max_ms": 9457.0
+  },
+  {
+    "variant": "N2",
+    "strategy": "S2",
+    "n": 3,
+    "outcome": "detected_stable",
+    "classifications": "detected_assertion",
+    "median_ms": 9398,
+    "min_ms": 9380.0,
+    "max_ms": 9411.0
+  },
+  {
+    "variant": "N3",
+    "strategy": "S2",
+    "n": 1,
+    "outcome": "invalid_variant",
+    "classifications": "invalid_variant",
+    "median_ms": 8222,
+    "min_ms": 8222.0,
+    "max_ms": 8222.0
+  },
+  {
+    "variant": "N4",
+    "strategy": "S0",
+    "n": 3,
+    "outcome": "detected_stable",
+    "classifications": "detected_assertion",
+    "median_ms": 9245,
+    "min_ms": 9127.0,
+    "max_ms": 9268.0
+  },
+  {
+    "variant": "N4",
+    "strategy": "S1",
+    "n": 3,
+    "outcome": "detected_stable",
+    "classifications": "detected_assertion",
+    "median_ms": 9412,
+    "min_ms": 9315.0,
+    "max_ms": 10987.0
+  },
+  {
+    "variant": "N4",
+    "strategy": "S2",
+    "n": 3,
+    "outcome": "detected_stable",
+    "classifications": "detected_assertion",
+    "median_ms": 9947,
+    "min_ms": 9891.0,
+    "max_ms": 9948.0
+  },
+  {
+    "variant": "N5",
+    "strategy": "S0",
+    "n": 3,
+    "outcome": "detected_stable",
+    "classifications": "detected_assertion",
+    "median_ms": 9217,
+    "min_ms": 9125.0,
+    "max_ms": 9431.0
+  },
+  {
+    "variant": "N5",
+    "strategy": "S1",
+    "n": 3,
+    "outcome": "detected_stable",
+    "classifications": "detected_assertion",
+    "median_ms": 9730,
+    "min_ms": 9171.0,
+    "max_ms": 9873.0
+  },
+  {
+    "variant": "N5",
+    "strategy": "S2",
+    "n": 3,
+    "outcome": "detected_stable",
+    "classifications": "detected_assertion",
+    "median_ms": 9447,
+    "min_ms": 9443.0,
+    "max_ms": 9453.0
+  },
+  {
+    "variant": "N6",
+    "strategy": "S2",
+    "n": 3,
+    "outcome": "detected_stable",
+    "classifications": "detected_assertion",
+    "median_ms": 9896,
+    "min_ms": 9818.0,
+    "max_ms": 10004.0
+  },
+  {
+    "variant": "N7",
+    "strategy": "S2",
+    "n": 3,
+    "outcome": "detected_stable",
+    "classifications": "detected_assertion",
+    "median_ms": 10101,
+    "min_ms": 10006.0,
+    "max_ms": 10273.0
+  },
+  {
+    "variant": "N8",
+    "strategy": "S2",
+    "n": 3,
+    "outcome": "detected_stable",
+    "classifications": "detected_assertion",
+    "median_ms": 10119,
+    "min_ms": 9959.0,
+    "max_ms": 10139.0
+  }
+]

@@ -1,0 +1,2 @@
+exit_code=0
+command=flutter analyze --no-pub

@@ -1,0 +1,148 @@
+name: COTB Regression Gate
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  FLUTTER_VERSION: 3.47.0
+
+jobs:
+  quality:
+    name: Formatting and static analysis
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - name: Formatting
+        shell: bash
+        run: |
+          set -o pipefail
+          dart format --output=none --set-exit-if-changed lib test 2>&1 | tee quality-format.txt
+      - name: Static analysis
+        shell: bash
+        run: |
+          set -o pipefail
+          flutter analyze --no-pub 2>&1 | tee quality-analysis.txt
+      - name: Upload quality evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cotb-quality
+          path: |
+            quality-format.txt
+            quality-analysis.txt
+          if-no-files-found: warn
+
+  s1:
+    name: S1 controller (22 tests)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - name: Run S1
+        shell: bash
+        run: |
+          set -o pipefail
+          flutter test --no-pub \
+            test/studyapp_flow_controller_test.dart \
+            test/cotb_authentication_testability_test.dart \
+            test/cotb_obsolete_response_conformance_test.dart \
+            --reporter expanded 2>&1 | tee s1.txt
+      - name: Upload S1 evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cotb-s1
+          path: s1.txt
+          if-no-files-found: error
+
+  s2:
+    name: S2 cumulative widget gate (27 tests)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - name: Run S2
+        shell: bash
+        run: |
+          set -o pipefail
+          flutter test --no-pub \
+            test/studyapp_flow_controller_test.dart \
+            test/cotb_authentication_testability_test.dart \
+            test/cotb_obsolete_response_conformance_test.dart \
+            test/cotb_widget_regression_test.dart \
+            --reporter expanded 2>&1 | tee s2.txt
+      - name: Upload S2 evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cotb-s2
+          path: s2.txt
+          if-no-files-found: error
+
+  artifacts:
+    name: Experimental evidence bundle
+    if: always()
+    needs: [quality, s1, s2]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: cotb-*
+          path: evidence
+          merge-multiple: true
+      - name: Create machine-readable manifest
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          files = sorted(str(path) for path in pathlib.Path('evidence').glob('*'))
+          pathlib.Path('evidence/manifest.json').write_text(
+              json.dumps({'files': files}, indent=2) + '\n', encoding='utf-8'
+          )
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cotb-regression-evidence
+          path: evidence
+          if-no-files-found: error
+          retention-days: 14
+
+  gate:
+    name: Required simulated quality gate
+    if: always()
+    needs: [quality, s1, s2, artifacts]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enforce required jobs
+        env:
+          QUALITY: ${{ needs.quality.result }}
+          S1: ${{ needs.s1.result }}
+          S2: ${{ needs.s2.result }}
+          ARTIFACTS: ${{ needs.artifacts.result }}
+        shell: bash
+        run: |
+          test "$QUALITY" = success
+          test "$S1" = success
+          test "$S2" = success
+          test "$ARTIFACTS" = success
+

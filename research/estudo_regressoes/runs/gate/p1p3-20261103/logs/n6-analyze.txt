@@ -1,0 +1,6 @@
+Analyzing frontend...                                           
+
+warning - Dead code. Try removing the code, or fixing the code before it so that it can be reached - lib\src\features\studyapp\presentation\login_view.dart:148:41 - dead_code
+warning - Dead code. Try removing the code, or fixing the code before it so that it can be reached - lib\src\features\studyapp\presentation\login_view.dart:149:33 - dead_code
+
+2 issues found. (ran in 3.6s)

@@ -1,0 +1,9 @@
+variant,category,primary_category,validity,s0,s1,s2,gate,incremental_s2
+N1,sessão/persistência/logout,sessão,valid,not_applicable,not_applicable,detected_stable,blocked,True
+N2,sessão/persistência/retomada,sessão,valid,not_applicable,not_applicable,detected_stable,blocked,True
+N3,MFA/expiração/sessão,MFA,invalid_variant,not_applicable,not_applicable,invalid_variant,inconclusive_invalid_variant,False
+N4,MFA/recuperabilidade/navegação,MFA,valid,detected_stable,detected_stable,detected_stable,blocked,False
+N5,falha de serviço/recuperabilidade/estado de UI,falha de serviço,valid,detected_stable,detected_stable,detected_stable,blocked,False
+N6,falha de serviço/observabilidade/UI,falha de serviço,valid,not_applicable,not_applicable,detected_stable,blocked,True
+N7,sessão/falha de serviço/recuperabilidade/UI,sessão,valid,not_applicable,not_applicable,detected_stable,blocked,True
+N8,navegação/MFA/integração View--Controller,navegação,valid,not_applicable,not_applicable,detected_stable,blocked,True

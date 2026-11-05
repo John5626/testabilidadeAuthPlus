@@ -1,0 +1,14 @@
+warning: in the working copy of 'C:\artifact\research\estudo_regressoes\runs\gate\p1p3-20261103\n3-nominal-source.bin', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'C:\artifact\frontend\lib\src\features\studyapp\presentation\studyapp_flow_controller.dart', LF will be replaced by CRLF the next time Git touches it
+diff --git "a/C:\\artifact\\research\\estudo_regressoes\\runs\\gate\\p1p3-20261103\\n3-nominal-source.bin" "b/C:\\artifact\\frontend\\lib\\src\\features\\studyapp\\presentation\\studyapp_flow_controller.dart"
+index fbbdeab..9c6a529 100644
+--- "a/C:\\artifact\\research\\estudo_regressoes\\runs\\gate\\p1p3-20261103\\n3-nominal-source.bin"
++++ "b/C:\\artifact\\frontend\\lib\\src\\features\\studyapp\\presentation\\studyapp_flow_controller.dart"
+@@ -482,7 +482,6 @@ class StudyAppFlowController extends ChangeNotifier {
+     _errorMessage = null;
+     notifyListeners();
+     try {
+-      _ensureChallengeIsUsable(challenge!);
+       final session = await authenticationRepository.verifyMfa(
+         challengeToken: challenge.challengeToken,
+         code: code,

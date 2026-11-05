@@ -1,0 +1,112 @@
+{
+  "gate": {
+    "blocked_valid": 7,
+    "deployment_performed": false,
+    "invalid_inconclusive": [
+      "N3"
+    ],
+    "valid_denominator": 7
+  },
+  "human_summary_consistency": {
+    "all_present": true,
+    "checked_fragments": [
+      "S0: 2/2",
+      "S1: 2/2",
+      "S2: 7/7",
+      "N3"
+    ]
+  },
+  "incremental_gain_s2_over_s1": {
+    "count": 5,
+    "variant_ids": [
+      "N1",
+      "N2",
+      "N6",
+      "N7",
+      "N8"
+    ]
+  },
+  "scope": {
+    "equivalent_excluded": [],
+    "historical_f1_f8_included": false,
+    "invalid_excluded": [
+      "N3"
+    ],
+    "note": "N3 is invalid and excluded from analyzed denominators.",
+    "variant_set": "N1-N8"
+  },
+  "sources_sha256": {
+    "results-summary.md": "5ae20e12f375fa0c2a3a600bc0b6cd542fa90dde4eef1731121529dfc0336d13",
+    "runs/gate/p1p3-20261103/gate-results.csv": "63c54e0b60a38d8afd15aced168bce124cb7ac5b2479bc697837c3d2c8eb365b",
+    "runs/nominal/p1p3-20261103/nominal-runs.csv": "e403e94a1d8c2d1ef7c5e9d6333bdfb9499778a89c5479a7fc6d4d2079694487",
+    "runs/variants/p1p3-20261103/variant-runs.csv": "6b946fefac515c2541a4bd261350f8b90052da930015ccb2634abc6f41ba63aa",
+    "variants.csv": "b0eb07e3aea99e2da5b6f51dac71d3ee4254f8fa372b7413561a666096753aad"
+  },
+  "strategies": {
+    "S0": {
+      "composition_tests": 17,
+      "detected_ids": [
+        "N4",
+        "N5"
+      ],
+      "detected_stable": 2,
+      "detection_rate": 1.0,
+      "incremental_gain_count": 0,
+      "incremental_gain_ids": [],
+      "max_ms": 9425,
+      "median_ms": 9298.0,
+      "min_ms": 9218,
+      "nominal_n": 10,
+      "non_modal_results": 0,
+      "planned_denominator": 2,
+      "valid_denominator": 2
+    },
+    "S1": {
+      "composition_tests": 22,
+      "detected_ids": [
+        "N4",
+        "N5"
+      ],
+      "detected_stable": 2,
+      "detection_rate": 1.0,
+      "incremental_gain_count": 0,
+      "incremental_gain_ids": [],
+      "max_ms": 9411,
+      "median_ms": 9327.5,
+      "min_ms": 9206,
+      "nominal_n": 10,
+      "non_modal_results": 0,
+      "planned_denominator": 2,
+      "valid_denominator": 2
+    },
+    "S2": {
+      "composition_tests": 27,
+      "detected_ids": [
+        "N1",
+        "N2",
+        "N4",
+        "N5",
+        "N6",
+        "N7",
+        "N8"
+      ],
+      "detected_stable": 7,
+      "detection_rate": 1.0,
+      "incremental_gain_count": 5,
+      "incremental_gain_ids": [
+        "N1",
+        "N2",
+        "N6",
+        "N7",
+        "N8"
+      ],
+      "max_ms": 9565,
+      "median_ms": 9345.0,
+      "min_ms": 9261,
+      "nominal_n": 10,
+      "non_modal_results": 0,
+      "planned_denominator": 8,
+      "valid_denominator": 7
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Formatted lib\src\core\config\app_config.dart
+Formatted lib\src\features\studyapp\data\mock_studyapp_repository.dart
+Formatted lib\src\features\waitlist\presentation\waitlist_landing_view.dart
+Formatted test\studyapp_flow_controller_test.dart
+Formatted 77 files (4 changed) in 0.54 seconds.

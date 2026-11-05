@@ -1,0 +1,97 @@
+started=2026-11-03T09:42:04.4113211-03:00
+duration_ms=160357
+exit_code=1
+controller_sha256_before=F699E82D3907E02D12FB13BC50CD0C69962E52A720A558BCC8F51433102301E7
+controller_sha256_after=F699E82D3907E02D12FB13BC50CD0C69962E52A720A558BCC8F51433102301E7
+command=in-memory copy of executar_mutacoes.ps1 with evidenceDirectory redirected to p0-reproducao/bruto/mutacoes
+--- output ---
+[
+  {
+    "id": "F1",
+    "baseExitCode": 1,
+    "expandedExitCode": 1,
+    "baseDetected": true,
+    "expandedDetected": true,
+    "baseRunClassification": "detected-by-assertion",
+    "expandedRunClassification": "detected-by-assertion",
+    "baseSummary": "    Actual: StudyAppStage:<StudyAppStage.workspace> |   Expected: StudyAppStage:<StudyAppStage.policyOnboarding> |     Actual: StudyAppStage:<StudyAppStage.workspace> | 00:06 +15 -2: Some tests failed.                                                                                                                                                                       ",
+    "expandedSummary": "    Actual: StudyAppStage:<StudyAppStage.workspace> |   Expected: StudyAppStage:<StudyAppStage.policyOnboarding> |     Actual: StudyAppStage:<StudyAppStage.workspace> | 00:07 +20 -2: Some tests failed.                                                                                                                                                                       "
+  },
+  {
+    "id": "F2",
+    "baseExitCode": 1,
+    "expandedExitCode": 1,
+    "baseDetected": true,
+    "expandedDetected": true,
+    "baseRunClassification": "detected-by-assertion",
+    "expandedRunClassification": "detected-by-assertion",
+    "baseSummary": "    Actual: StudyAppStage:<StudyAppStage.workspace> |   Expected: StudyAppStage:<StudyAppStage.mfaChallenge> |     Actual: StudyAppStage:<StudyAppStage.workspace> | 00:08 +15 -2: Some tests failed.                                                                                                                                                                       ",
+    "expandedSummary": "    Actual: StudyAppStage:<StudyAppStage.workspace> |   Expected: StudyAppStage:<StudyAppStage.mfaChallenge> |     Actual: StudyAppStage:<StudyAppStage.workspace> | 00:07 +20 -2: Some tests failed.                                                                                                                                                                       "
+  },
+  {
+    "id": "F3",
+    "baseExitCode": 1,
+    "expandedExitCode": 1,
+    "baseDetected": true,
+    "expandedDetected": true,
+    "baseRunClassification": "detected-by-assertion",
+    "expandedRunClassification": "detected-by-assertion",
+    "baseSummary": "  Expected: StudyAppStage:<StudyAppStage.login> |     Actual: StudyAppStage:<StudyAppStage.workspace> | 00:07 +16 -1: Some tests failed.                                                                                                                                                                       ",
+    "expandedSummary": "  Expected: StudyAppStage:<StudyAppStage.login> |     Actual: StudyAppStage:<StudyAppStage.workspace> | 00:06 +21 -1: Some tests failed.                                                                                                                                                                       "
+  },
+  {
+    "id": "F4",
+    "baseExitCode": 0,
+    "expandedExitCode": 1,
+    "baseDetected": false,
+    "expandedDetected": true,
+    "baseRunClassification": "survived",
+    "expandedRunClassification": "detected-by-assertion",
+    "baseSummary": "00:07 +17: All tests passed!                                                                                                                                                                           ",
+    "expandedSummary": "  Expected: false |     Actual: <true> | 00:07 +21 -1: Some tests failed.                                                                                                                                                                       "
+  },
+  {
+    "id": "F5",
+    "baseExitCode": 0,
+    "expandedExitCode": 1,
+    "baseDetected": false,
+    "expandedDetected": true,
+    "baseRunClassification": "survived",
+    "expandedRunClassification": "detected-by-assertion",
+    "baseSummary": "00:07 +17: All tests passed!                                                                                                                                                                           ",
+    "expandedSummary": "  Expected: StudyAppStage:<StudyAppStage.login> |     Actual: StudyAppStage:<StudyAppStage.workspace> | 00:07 +21 -1: Some tests failed.                                                                                                                                                                       "
+  },
+  {
+    "id": "F6",
+    "baseExitCode": 0,
+    "expandedExitCode": 1,
+    "baseDetected": false,
+    "expandedDetected": true,
+    "baseRunClassification": "survived",
+    "expandedRunClassification": "detected-by-assertion",
+    "baseSummary": "00:07 +17: All tests passed!                                                                                                                                                                           ",
+    "expandedSummary": "    Actual: 'E-mail ou senha inválidos.' |   Expected: false |     Actual: <true> | 00:07 +19 -3: Some tests failed.                                                                                                                                                                       "
+  },
+  {
+    "id": "F7",
+    "baseExitCode": 0,
+    "expandedExitCode": 1,
+    "baseDetected": false,
+    "expandedDetected": true,
+    "baseRunClassification": "survived",
+    "expandedRunClassification": "detected-by-assertion",
+    "baseSummary": "00:07 +17: All tests passed!                                                                                                                                                                           ",
+    "expandedSummary": "  Expected: StudyAppStage:<StudyAppStage.landing> |     Actual: StudyAppStage:<StudyAppStage.workspace> | 00:07 +21 -1: Some tests failed.                                                                                                                                                                       "
+  },
+  {
+    "id": "F8",
+    "baseExitCode": 0,
+    "expandedExitCode": 1,
+    "baseDetected": false,
+    "expandedDetected": true,
+    "baseRunClassification": "survived",
+    "expandedRunClassification": "detected-by-assertion",
+    "baseSummary": "00:06 +17: All tests passed!                                                                                                                                                                           ",
+    "expandedSummary": "  Expected: null |     Actual: 'E-mail ou senha inválidos.' | 00:06 +21 -1: Some tests failed.                                                                                                                                                                       "
+  }
+]

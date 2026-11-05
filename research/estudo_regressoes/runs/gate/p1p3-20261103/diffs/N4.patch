@@ -1,0 +1,15 @@
+warning: in the working copy of 'C:\artifact\research\estudo_regressoes\runs\gate\p1p3-20261103\n4-nominal-source.bin', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'C:\artifact\frontend\lib\src\features\studyapp\presentation\studyapp_flow_controller.dart', LF will be replaced by CRLF the next time Git touches it
+diff --git "a/C:\\artifact\\research\\estudo_regressoes\\runs\\gate\\p1p3-20261103\\n4-nominal-source.bin" "b/C:\\artifact\\frontend\\lib\\src\\features\\studyapp\\presentation\\studyapp_flow_controller.dart"
+index fbbdeab..ed4bf1d 100644
+--- "a/C:\\artifact\\research\\estudo_regressoes\\runs\\gate\\p1p3-20261103\\n4-nominal-source.bin"
++++ "b/C:\\artifact\\frontend\\lib\\src\\features\\studyapp\\presentation\\studyapp_flow_controller.dart"
+@@ -493,7 +493,7 @@ class StudyAppFlowController extends ChangeNotifier {
+       _returnToLoginAfterChallengeFailure(error);
+       return false;
+     } catch (error) {
+-      _errorMessage = error.toString();
++      _returnToLoginAfterChallengeFailure(error);
+       return false;
+     } finally {
+       _busy = false;

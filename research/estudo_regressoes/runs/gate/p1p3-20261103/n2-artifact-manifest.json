@@ -1,0 +1,39 @@
+{
+  "variant": "N2",
+  "nominal_sha256": "9FC348BE0D4378DBED99ACA7F67AE5029AC8FB4E9215C0FBC45311BB88435607",
+  "mutated_sha256": "92BFF3CD429D835F725E337A5EF4BF9F56ACE29259E345079E8B272D17D19009",
+  "diff_sha256": "87D2B4B6DDF00B07AB633916E37BA03B587620660B868468F8AFC498BECD82D0",
+  "generated_at": "2026-11-03T10:30:30.3993551-03:00",
+  "steps": [
+    {
+      "name": "format",
+      "exit_code": 0,
+      "duration_ms": 1702,
+      "classification": "pass",
+      "log": "logs\\n2-format.txt"
+    },
+    {
+      "name": "analyze",
+      "exit_code": 0,
+      "duration_ms": 7663,
+      "classification": "pass",
+      "log": "logs\\n2-analyze.txt"
+    },
+    {
+      "name": "S1",
+      "exit_code": 0,
+      "passed": 22,
+      "duration_ms": 9771,
+      "classification": "survived",
+      "log": "logs\\n2-s1.txt"
+    },
+    {
+      "name": "S2",
+      "exit_code": 1,
+      "passed": null,
+      "duration_ms": 10336,
+      "classification": "detected_assertion",
+      "log": "logs\\n2-s2.txt"
+    }
+  ]
+}

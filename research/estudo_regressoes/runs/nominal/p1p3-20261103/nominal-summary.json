@@ -1,0 +1,26 @@
+[
+  {
+    "strategy": "S0",
+    "n": 10,
+    "median_ms": 9298.0,
+    "min_ms": 9218.0,
+    "max_ms": 9425.0,
+    "non_modal_results": 0
+  },
+  {
+    "strategy": "S1",
+    "n": 10,
+    "median_ms": 9327.5,
+    "min_ms": 9206.0,
+    "max_ms": 9411.0,
+    "non_modal_results": 0
+  },
+  {
+    "strategy": "S2",
+    "n": 10,
+    "median_ms": 9345.0,
+    "min_ms": 9261.0,
+    "max_ms": 9565.0,
+    "non_modal_results": 0
+  }
+]

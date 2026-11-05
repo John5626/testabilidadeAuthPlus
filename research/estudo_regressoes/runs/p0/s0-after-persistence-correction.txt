@@ -1,0 +1,25 @@
+started=2026-11-03T09:51:26.5158724-03:00
+duration_ms=9801
+exit_code=0
+controller_sha256=9FC348BE0D4378DBED99ACA7F67AE5029AC8FB4E9215C0FBC45311BB88435607
+command=flutter test --no-pub test/studyapp_flow_controller_test.dart --reporter expanded
+--- output ---
+00:00 +0: loading C:/artifact/frontend/test/studyapp_flow_controller_test.dart
+00:00 +0: cadastro persiste no backend e encaminha para o login
+00:00 +1: repositório mockado mantém recurso criado atrás do contrato
+00:00 +2: convite guarda somente resumo e devolve token transacional
+00:01 +3: Admin organização cria e desativa equipe preservando o registro
+00:01 +4: convidado sem conta cria credencial e aceita convite uma vez
+00:02 +5: convidado com conta existente aceita somente o novo vínculo
+00:03 +6: link abre convite e descarta token ao sair do fluxo
+00:03 +7: login real sessão restaurada abre o workspace sem novo login
+00:03 +8: login real sessão recusada na reabertura volta ao login
+00:03 +9: login real mantém somente access token e libera workspace no sucesso
+00:04 +10: login real challenge de termos não cria sessão nem libera workspace
+00:04 +11: login real challenge de MFA fica isolado e preparado para DEV-106
+00:04 +12: login real MFA válido cria sessão ACCESS e somente então libera workspace
+00:04 +13: login real MFA inválido mantém challenge isolado e workspace bloqueado
+00:04 +14: login real conflito no aceite recarrega versões e exige novo consentimento
+00:04 +15: login real credencial inválida usa resposta uniforme e limpa estado
+00:04 +16: login real ignora novo envio enquanto o login está em andamento
+00:04 +17: All tests passed!

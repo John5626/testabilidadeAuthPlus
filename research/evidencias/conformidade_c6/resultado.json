@@ -1,0 +1,24 @@
+{
+  "revision": "ANONYMIZED_BASE_REVISION",
+  "command": "flutter test --no-pub test/cotb_obsolete_response_conformance_test.dart --reporter expanded",
+  "date": "2026-10-31",
+  "tests": 1,
+  "passed": 0,
+  "failed": 1,
+  "exitCode": 1,
+  "expectedStage": "landing",
+  "actualStage": "workspace",
+  "classification": "nonconformity_in_base_revision",
+  "note": "The late authentication response reopened the abandoned flow and started a session.",
+  "afterCorrection": {
+    "command": "flutter test --no-pub test/studyapp_flow_controller_test.dart test/cotb_authentication_testability_test.dart test/cotb_obsolete_response_conformance_test.dart --reporter expanded",
+    "tests": 20,
+    "passed": 20,
+    "failed": 0,
+    "exitCode": 0,
+    "expectedStage": "landing",
+    "actualStage": "landing",
+    "session": null,
+    "classification": "corrected"
+  }
+}

@@ -1,0 +1,58 @@
+
+00:00 +0: loading C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart                                                                     
+00:01 +0: loading C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart                                                                     
+00:02 +0: loading C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart                                                                     
+00:02 +0: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: cadastro persiste no backend e encaminha para o login                      
+00:02 +1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: cadastro persiste no backend e encaminha para o login                      
+00:02 +1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato                
+00:02 +2: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato                
+00:02 +3: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato                
+00:02 +3 -1: C:/artifact/research/experimento/frontend-historico/test/cotb_authentication_testability_test.dart: C4 remove sessão expirada sem consultar o workspace [E]          
+  Expected: StudyAppStage:<StudyAppStage.login>
+    Actual: StudyAppStage:<StudyAppStage.workspace>
+  
+  package:matcher                                      expect
+  package:flutter_test/src/widget_tester.dart 473:18   expect
+  test\cotb_authentication_testability_test.dart 27:5  main.<fn>
+  
+
+To run this test again: C:\Users\reviewer\AppData\Local\flutter\bin\cache\dart-sdk\bin\dart.exe test C:/artifact/research/experimento/frontend-historico/test/cotb_authentication_testability_test.dart -p vm --plain-name "C4 remove sessão expirada sem consultar o workspace"
+
+00:02 +4 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato             
+00:02 +5 -1: C:/artifact/research/experimento/frontend-historico/test/cotb_obsolete_response_conformance_test.dart: C6c workspace obsoleto não reabre fluxo abandonado            
+00:02 +6 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: convite guarda somente resumo e devolve token transacional              
+00:03 +6 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: convite guarda somente resumo e devolve token transacional              
+00:03 +7 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: convite guarda somente resumo e devolve token transacional              
+00:03 +7 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: Admin organização cria e desativa equipe preservando o registro         
+00:04 +7 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: Admin organização cria e desativa equipe preservando o registro         
+00:04 +8 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: Admin organização cria e desativa equipe preservando o registro         
+00:04 +8 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: convidado sem conta cria credencial e aceita convite uma vez            
+00:05 +8 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: convidado sem conta cria credencial e aceita convite uma vez            
+00:05 +9 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: convidado sem conta cria credencial e aceita convite uma vez            
+00:05 +9 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: convidado com conta existente aceita somente o novo vínculo             
+00:05 +10 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: convidado com conta existente aceita somente o novo vínculo            
+00:05 +10 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: link abre convite e descarta token ao sair do fluxo                    
+00:05 +11 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: link abre convite e descarta token ao sair do fluxo                    
+00:05 +11 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real sessão restaurada abre o workspace sem novo login           
+00:05 +12 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real sessão restaurada abre o workspace sem novo login           
+00:05 +12 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real sessão recusada na reabertura volta ao login                
+00:05 +13 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real sessão recusada na reabertura volta ao login                
+00:05 +13 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real mantém somente access token e libera workspace no sucesso   
+00:06 +13 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real mantém somente access token e libera workspace no sucesso   
+00:06 +14 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real mantém somente access token e libera workspace no sucesso   
+00:06 +14 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real challenge de termos não cria sessão nem libera workspace    
+00:06 +15 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real challenge de termos não cria sessão nem libera workspace    
+00:06 +15 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real challenge de MFA fica isolado e preparado para DEV-106      
+00:06 +16 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real challenge de MFA fica isolado e preparado para DEV-106      
+00:06 +16 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: ... real MFA válido cria sessão ACCESS e somente então libera workspace
+00:06 +17 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: ... real MFA válido cria sessão ACCESS e somente então libera workspace
+00:06 +17 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real MFA inválido mantém challenge isolado e workspace bloqueado 
+00:06 +18 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real MFA inválido mantém challenge isolado e workspace bloqueado 
+00:06 +18 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: ... conflito no aceite recarrega versões e exige novo consentimento    
+00:06 +19 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: ... conflito no aceite recarrega versões e exige novo consentimento    
+00:06 +19 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real credencial inválida usa resposta uniforme e limpa estado    
+00:06 +20 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real credencial inválida usa resposta uniforme e limpa estado    
+00:06 +20 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real ignora novo envio enquanto o login está em andamento        
+00:07 +20 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real ignora novo envio enquanto o login está em andamento        
+00:07 +21 -1: C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart: login real ignora novo envio enquanto o login está em andamento        
+00:07 +21 -1: Some tests failed.                                                                                                                                                                       

@@ -1,0 +1,4 @@
+id,late_event,assertions,conforming_after_fix,detecting_fault
+C6a,authentication success after abandonment,4,4,F6
+C6b,authentication error after abandonment,4,4,F8
+C6c,workspace completion after abandonment,4,4,F7

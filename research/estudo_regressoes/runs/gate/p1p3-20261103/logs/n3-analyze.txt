@@ -1,0 +1,5 @@
+Analyzing frontend...                                           
+
+  error - The property 'challengeToken' can't be unconditionally accessed because the receiver can be 'null'. Try making the access conditional (using '?.') or adding a null check to the target ('!') - lib\src\features\studyapp\presentation\studyapp_flow_controller.dart:486:35 - unchecked_use_of_nullable_value
+
+1 issue found. (ran in 3.2s)

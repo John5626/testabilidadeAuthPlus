@@ -1,0 +1,2 @@
+exit_code=0
+command=dart format --output=none --set-exit-if-changed <modified-files>

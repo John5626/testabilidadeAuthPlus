@@ -1,0 +1,67 @@
+00:00 +0: loading C:/artifact/frontend/test/studyapp_flow_controller_test.dart
+00:00 +0: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: cadastro persiste no backend e encaminha para o login
+00:00 +1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato
+00:00 +2: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato
+00:00 +3: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato
+00:00 +4: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato
+00:00 +5: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato
+00:00 +6: C:/artifact/frontend/test/cotb_obsolete_response_conformance_test.dart: C6c workspace obsoleto não reabre fluxo abandonado
+00:00 +7: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: convite guarda somente resumo e devolve token transacional
+00:01 +8: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W1 login pendente termina com erro visível e recuperável
+00:01 +9: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W1 login pendente termina com erro visível e recuperável
+00:02 +10: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: convidado sem conta cria credencial e aceita convite uma vez
+00:02 +10: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W2 MFA recusado preserva a tela e cancelar retorna ao login
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _KeyWidgetFinder:<Found 0 widgets with key [<'mfa-error'>]: []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///C:/artifact/frontend/test/cotb_widget_regression_test.dart:84:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///C:/artifact/frontend/test/cotb_widget_regression_test.dart line 84
+The test description was:
+  W2 MFA recusado preserva a tela e cancelar retorna ao login
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:02 +10 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: convidado sem conta cria credencial e aceita convite uma vez
+00:02 +10 -1: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W2 MFA recusado preserva a tela e cancelar retorna ao login [E]
+  Test failed. See exception logs above.
+  The test description was: W2 MFA recusado preserva a tela e cancelar retorna ao login
+  
+00:02 +11 -1: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W2 challenge MFA expirado não chama verificação remota
+00:03 +12 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: convidado com conta existente aceita somente o novo vínculo
+00:03 +13 -1: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W3 login persiste, reinício retoma e logout remove sessão
+00:03 +14 -1: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W3 login persiste, reinício retoma e logout remove sessão
+00:03 +15 -1: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W3 login persiste, reinício retoma e logout remove sessão
+00:03 +16 -1: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W3 login persiste, reinício retoma e logout remove sessão
+00:03 +17 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real mantém somente access token e libera workspace no sucesso
+00:03 +18 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real mantém somente access token e libera workspace no sucesso
+00:04 +19 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real challenge de termos não cria sessão nem libera workspace
+00:04 +20 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real challenge de MFA fica isolado e preparado para DEV-106
+00:04 +21 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real MFA válido cria sessão ACCESS e somente então libera workspace
+00:04 +22 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real MFA inválido mantém challenge isolado e workspace bloqueado
+00:04 +22 -2: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real MFA inválido mantém challenge isolado e workspace bloqueado [E]
+  Expected: StudyAppStage:<StudyAppStage.mfaChallenge>
+    Actual: StudyAppStage:<StudyAppStage.login>
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\studyapp_flow_controller_test.dart 372:9       main.<fn>.<fn>
+  
+00:04 +22 -2: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real conflito no aceite recarrega versões e exige novo consentimento
+00:04 +23 -2: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real credencial inválida usa resposta uniforme e limpa estado
+00:04 +24 -2: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real ignora novo envio enquanto o login está em andamento
+00:04 +25 -2: Some tests failed.
+
+Failing tests:
+  C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real MFA inválido mantém challenge isolado e workspace bloqueado
+  C:/artifact/frontend/test/cotb_widget_regression_test.dart: W2 MFA recusado preserva a tela e cancelar retorna ao login

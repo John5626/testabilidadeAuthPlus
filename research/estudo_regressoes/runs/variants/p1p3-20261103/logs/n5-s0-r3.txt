@@ -1,0 +1,63 @@
+00:00 +0: loading C:/artifact/frontend/test/studyapp_flow_controller_test.dart
+00:00 +0: cadastro persiste no backend e encaminha para o login
+00:00 +1: repositório mockado mantém recurso criado atrás do contrato
+00:00 +2: convite guarda somente resumo e devolve token transacional
+00:01 +3: Admin organização cria e desativa equipe preservando o registro
+00:01 +4: convidado sem conta cria credencial e aceita convite uma vez
+00:02 +5: convidado com conta existente aceita somente o novo vínculo
+00:03 +6: link abre convite e descarta token ao sair do fluxo
+00:03 +7: login real sessão restaurada abre o workspace sem novo login
+00:03 +8: login real sessão recusada na reabertura volta ao login
+00:03 +9: login real mantém somente access token e libera workspace no sucesso
+00:03 +10: login real challenge de termos não cria sessão nem libera workspace
+00:04 +10 -1: login real challenge de termos não cria sessão nem libera workspace [E]
+  Expected: true
+    Actual: <false>
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\studyapp_flow_controller_test.dart 292:7       main.<fn>.<fn>
+  
+00:04 +10 -1: login real challenge de MFA fica isolado e preparado para DEV-106
+00:04 +11 -1: login real MFA válido cria sessão ACCESS e somente então libera workspace
+00:04 +11 -2: login real MFA válido cria sessão ACCESS e somente então libera workspace [E]
+  Expected: true
+    Actual: <false>
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\studyapp_flow_controller_test.dart 342:9       main.<fn>.<fn>
+  
+00:04 +11 -2: login real MFA inválido mantém challenge isolado e workspace bloqueado
+00:04 +11 -3: login real MFA inválido mantém challenge isolado e workspace bloqueado [E]
+  Expected: 'Código inválido ou expirado. Tente novamente.'
+    Actual: <null>
+     Which: not an <Instance of 'String'>
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\studyapp_flow_controller_test.dart 376:9       main.<fn>.<fn>
+  
+00:04 +11 -3: login real conflito no aceite recarrega versões e exige novo consentimento
+00:04 +11 -4: login real conflito no aceite recarrega versões e exige novo consentimento [E]
+  Expected: '2.0'
+    Actual: '1.0'
+     Which: is different.
+            Expected: 2.0
+              Actual: 1.0
+                      ^
+             Differ at offset 0
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\studyapp_flow_controller_test.dart 406:9       main.<fn>.<fn>
+  
+00:04 +11 -4: login real credencial inválida usa resposta uniforme e limpa estado
+00:04 +12 -4: login real ignora novo envio enquanto o login está em andamento
+00:04 +13 -4: Some tests failed.
+
+Failing tests:
+  C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real MFA inválido mantém challenge isolado e workspace bloqueado
+  C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real MFA válido cria sessão ACCESS e somente então libera workspace
+  C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real challenge de termos não cria sessão nem libera workspace
+  C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real conflito no aceite recarrega versões e exige novo consentimento

@@ -1,0 +1,35 @@
+{
+  "revision": "ANONYMIZED_BASE_REVISION + corrective C6 patch",
+  "date": "2026-10-31",
+  "worktree": "research/experimento/frontend-historico",
+  "nominal": {
+    "basePassed": 17,
+    "expandedPassed": 22,
+    "exitCode": 0
+  },
+  "correction": {
+    "scenario": "C6",
+    "mechanism": "authentication generation guard",
+    "productionFilesChanged": 1,
+    "aggregateConformanceBefore": "0/2",
+    "aggregateConformanceAfter": "2/2",
+    "detailedSubscenariosAfter": "3/3"
+  },
+  "excludedTrials": [
+    {
+      "id": "F4a",
+      "classification": "equivalent",
+      "reason": "Remover apenas a limpeza interna não alterou o resultado porque signIn executava uma segunda limpeza defensiva."
+    }
+  ],
+  "variants": [
+    {"id": "F1", "eligible": true, "baseDetected": true,  "expandedDetected": true, "baseRunClassification": "detected-by-assertion", "expandedRunClassification": "detected-by-assertion"},
+    {"id": "F2", "eligible": true, "baseDetected": true,  "expandedDetected": true, "baseRunClassification": "detected-by-assertion", "expandedRunClassification": "detected-by-assertion"},
+    {"id": "F3", "eligible": true, "baseDetected": true,  "expandedDetected": true, "baseRunClassification": "detected-by-assertion", "expandedRunClassification": "detected-by-assertion"},
+    {"id": "F4", "eligible": true, "baseDetected": false, "expandedDetected": true, "baseRunClassification": "survived", "expandedRunClassification": "detected-by-assertion"},
+    {"id": "F5", "eligible": true, "baseDetected": false, "expandedDetected": true, "baseRunClassification": "survived", "expandedRunClassification": "detected-by-assertion"},
+    {"id": "F6", "eligible": true, "baseDetected": false, "expandedDetected": true, "baseRunClassification": "survived", "expandedRunClassification": "detected-by-assertion"},
+    {"id": "F7", "eligible": true, "baseDetected": false, "expandedDetected": true, "baseRunClassification": "survived", "expandedRunClassification": "detected-by-assertion"},
+    {"id": "F8", "eligible": true, "baseDetected": false, "expandedDetected": true, "baseRunClassification": "survived", "expandedRunClassification": "detected-by-assertion"}
+  ]
+}

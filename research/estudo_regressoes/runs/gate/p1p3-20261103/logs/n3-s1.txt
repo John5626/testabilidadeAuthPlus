@@ -1,0 +1,85 @@
+00:00 +0: loading C:/artifact/frontend/test/studyapp_flow_controller_test.dart
+lib/src/features/studyapp/presentation/studyapp_flow_controller.dart:486:35: Error: Property 'challengeToken' cannot be accessed on 'AuthenticationChallenge?' because it is potentially null.
+ - 'AuthenticationChallenge' is from 'package:frontend/src/features/studyapp/domain/authentication.dart' ('lib/src/features/studyapp/domain/authentication.dart').
+Try accessing using ?. instead.
+        challengeToken: challenge.challengeToken,
+                                  ^^^^^^^^^^^^^^
+00:00 +0 -1: loading C:/artifact/frontend/test/studyapp_flow_controller_test.dart [E]
+  Failed to load "C:/artifact/frontend/test/studyapp_flow_controller_test.dart":
+  Compilation failed for testPath=C:/artifact/frontend/test/studyapp_flow_controller_test.dart: lib/src/features/studyapp/presentation/studyapp_flow_controller.dart:486:35: Error: Property 'challengeToken' cannot be accessed on 'AuthenticationChallenge?' because it is potentially null.
+   - 'AuthenticationChallenge' is from 'package:frontend/src/features/studyapp/domain/authentication.dart' ('lib/src/features/studyapp/domain/authentication.dart').
+  Try accessing using ?. instead.
+          challengeToken: challenge.challengeToken,
+                                    ^^^^^^^^^^^^^^
+  .
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 1021:11   DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 48:47                  _rootRunUnary
+  dart:async/zone.dart 816:35                      _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 862:9                Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone_root.dart 35:13                  _rootRun
+  dart:async/zone.dart 810:35                      _CustomZone.run
+  dart:async/zone.dart 702:7                       _CustomZone.runGuarded
+  dart:async/zone.dart 743:23                      _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 193:5      _RawReceivePort._handleMessage
+  
+lib/src/features/studyapp/presentation/studyapp_flow_controller.dart:486:35: Error: Property 'challengeToken' cannot be accessed on 'AuthenticationChallenge?' because it is potentially null.
+ - 'AuthenticationChallenge' is from 'package:frontend/src/features/studyapp/domain/authentication.dart' ('lib/src/features/studyapp/domain/authentication.dart').
+Try accessing using ?. instead.
+        challengeToken: challenge.challengeToken,
+                                  ^^^^^^^^^^^^^^
+00:00 +0 -2: loading C:/artifact/frontend/test/cotb_authentication_testability_test.dart [E]
+  Failed to load "C:/artifact/frontend/test/cotb_authentication_testability_test.dart":
+  Compilation failed for testPath=C:/artifact/frontend/test/cotb_authentication_testability_test.dart: lib/src/features/studyapp/presentation/studyapp_flow_controller.dart:486:35: Error: Property 'challengeToken' cannot be accessed on 'AuthenticationChallenge?' because it is potentially null.
+   - 'AuthenticationChallenge' is from 'package:frontend/src/features/studyapp/domain/authentication.dart' ('lib/src/features/studyapp/domain/authentication.dart').
+  Try accessing using ?. instead.
+          challengeToken: challenge.challengeToken,
+                                    ^^^^^^^^^^^^^^
+  .
+00:00 +0 -2: loading C:/artifact/frontend/test/studyapp_flow_controller_test.dart [E]
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 1021:11   DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 48:47                  _rootRunUnary
+  dart:async/zone.dart 816:35                      _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 862:9                Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone_root.dart 35:13                  _rootRun
+  dart:async/zone.dart 810:35                      _CustomZone.run
+  dart:async/zone.dart 702:7                       _CustomZone.runGuarded
+  dart:async/zone.dart 743:23                      _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 193:5      _RawReceivePort._handleMessage
+  
+lib/src/features/studyapp/presentation/studyapp_flow_controller.dart:486:35: Error: Property 'challengeToken' cannot be accessed on 'AuthenticationChallenge?' because it is potentially null.
+ - 'AuthenticationChallenge' is from 'package:frontend/src/features/studyapp/domain/authentication.dart' ('lib/src/features/studyapp/domain/authentication.dart').
+Try accessing using ?. instead.
+        challengeToken: challenge.challengeToken,
+                                  ^^^^^^^^^^^^^^
+00:00 +0 -3: loading C:/artifact/frontend/test/cotb_obsolete_response_conformance_test.dart [E]
+  Failed to load "C:/artifact/frontend/test/cotb_obsolete_response_conformance_test.dart":
+  Compilation failed for testPath=C:/artifact/frontend/test/cotb_obsolete_response_conformance_test.dart: lib/src/features/studyapp/presentation/studyapp_flow_controller.dart:486:35: Error: Property 'challengeToken' cannot be accessed on 'AuthenticationChallenge?' because it is potentially null.
+   - 'AuthenticationChallenge' is from 'package:frontend/src/features/studyapp/domain/authentication.dart' ('lib/src/features/studyapp/domain/authentication.dart').
+  Try accessing using ?. instead.
+          challengeToken: challenge.challengeToken,
+                                    ^^^^^^^^^^^^^^
+  .
+00:00 +0 -3: Some tests failed.
+
+Failing tests:
+  C:/artifact/frontend/test/studyapp_flow_controller_test.dart: loading C:/artifact/frontend/test/studyapp_flow_controller_test.dart
+  C:/artifact/frontend/test/cotb_authentication_testability_test.dart: loading C:/artifact/frontend/test/cotb_authentication_testability_test.dart
+  C:/artifact/frontend/test/cotb_obsolete_response_conformance_test.dart: loading C:/artifact/frontend/test/cotb_obsolete_response_conformance_test.dart

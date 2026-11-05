@@ -1,0 +1,5 @@
+exit_code=0
+command=flutter analyze --no-pub lib/src/features/studyapp/presentation/studyapp_flow_controller.dart test/cotb_persistence_failure_conformance_test.dart
+--- output ---
+Analyzing 2 items...                                            
+No issues found! (ran in 20.0s)

@@ -1,0 +1,14 @@
+warning: in the working copy of 'C:\artifact\research\estudo_regressoes\runs\gate\p1p3-20261103\n7-nominal-source.bin', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'C:\artifact\frontend\lib\src\features\studyapp\presentation\studyapp_flow_controller.dart', LF will be replaced by CRLF the next time Git touches it
+diff --git "a/C:\\artifact\\research\\estudo_regressoes\\runs\\gate\\p1p3-20261103\\n7-nominal-source.bin" "b/C:\\artifact\\frontend\\lib\\src\\features\\studyapp\\presentation\\studyapp_flow_controller.dart"
+index fbbdeab..92ac49e 100644
+--- "a/C:\\artifact\\research\\estudo_regressoes\\runs\\gate\\p1p3-20261103\\n7-nominal-source.bin"
++++ "b/C:\\artifact\\frontend\\lib\\src\\features\\studyapp\\presentation\\studyapp_flow_controller.dart"
+@@ -93,7 +93,6 @@ class StudyAppFlowController extends ChangeNotifier {
+       if (sessionStore.session == null) {
+         _stage = StudyAppStage.login;
+       } else {
+-        _errorMessage = 'Não foi possível confirmar a sessão. Tente novamente.';
+       }
+     } finally {
+       notifyListeners();

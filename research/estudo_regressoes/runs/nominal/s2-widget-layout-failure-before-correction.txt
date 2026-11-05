@@ -1,0 +1,47 @@
+started=2026-11-03T10:02:18.0061569-03:00
+exit_code=1
+command=flutter test --no-pub test/cotb_widget_regression_test.dart --plain-name W1 --reporter expanded
+--- output ---
+00:00 +0: loading C:/artifact/frontend/test/cotb_widget_regression_test.dart
+00:00 +0: W1 login pendente termina com erro visível e recuperável
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 100 pixels on the right.
+
+The relevant error-causing widget was:
+  Row
+  Row:file:///C:/artifact/frontend/lib/src/features/studyapp/presentation/login_view.dart:205:31
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#298d2 relayoutBoundary=up25 OVERFLOWING:
+  creator: Row ← Column ← _FormScope ← WillPopScope ← Semantics ←
+    Form-[LabeledGlobalKey<FormState>#18c5a] ← _AutofillScope ← AutofillGroup ← Padding ← DecoratedBox
+    ← Container ← GlassCard ← ⋯
+  parentData: offset=Offset(0.0, 447.0); flex=null; fit=null (can use size)
+  constraints: BoxConstraints(w=434.0, 0.0<=h<=Infinity)
+  size: Size(434.0, 48.0)
+  direction: horizontal
+  mainAxisAlignment: center
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +0 -1: W1 login pendente termina com erro visível e recuperável [E]
+  Test failed. See exception logs above.
+  The test description was: W1 login pendente termina com erro visível e recuperável
+  
+00:01 +0 -1: Some tests failed.
+
+Failing tests:
+  C:/artifact/frontend/test/cotb_widget_regression_test.dart: W1 login pendente termina com erro visível e recuperável

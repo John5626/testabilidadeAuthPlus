@@ -1,0 +1,9 @@
+strategy,category,detected_stable,valid_applicable,rate,variant_ids
+S0,MFA,1,1,1.0,N4
+S0,falha de serviço,1,1,1.0,N5
+S1,MFA,1,1,1.0,N4
+S1,falha de serviço,1,1,1.0,N5
+S2,MFA,1,1,1.0,N4
+S2,falha de serviço,2,2,1.0,N5;N6
+S2,navegação,1,1,1.0,N8
+S2,sessão,3,3,1.0,N1;N2;N7

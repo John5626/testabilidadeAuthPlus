@@ -1,0 +1,15 @@
+warning: in the working copy of 'C:\artifact\research\estudo_regressoes\runs\variants\p1p3-20261103\n6-nominal-source.bin', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'C:\artifact\frontend\lib\src\features\studyapp\presentation\login_view.dart', LF will be replaced by CRLF the next time Git touches it
+diff --git "a/C:\\artifact\\research\\estudo_regressoes\\runs\\variants\\p1p3-20261103\\n6-nominal-source.bin" "b/C:\\artifact\\frontend\\lib\\src\\features\\studyapp\\presentation\\login_view.dart"
+index aa0db4a..80db89d 100644
+--- "a/C:\\artifact\\research\\estudo_regressoes\\runs\\variants\\p1p3-20261103\\n6-nominal-source.bin"
++++ "b/C:\\artifact\\frontend\\lib\\src\\features\\studyapp\\presentation\\login_view.dart"
+@@ -145,7 +145,7 @@ class _LoginViewState extends State<LoginView> {
+                                   child: const Text('Esqueci minha senha'),
+                                 ),
+                               ),
+-                              if (widget.errorMessage != null)
++                              if (false && widget.errorMessage != null)
+                                 Text(
+                                   widget.errorMessage!,
+                                   style: const TextStyle(

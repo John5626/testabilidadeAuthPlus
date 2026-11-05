@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-31",
+  "command": "flutter test --no-pub --reporter compact",
+  "passed": 80,
+  "skipped": 0,
+  "failed": 0,
+  "exitCode": 0,
+  "note": "C6a, C6b e C6c foram executados sem skip; análise estática sem problemas."
+}

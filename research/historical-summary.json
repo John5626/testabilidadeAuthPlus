@@ -1,0 +1,27 @@
+{
+  "scenarios": {
+    "isolated": 6,
+    "selected": 6
+  },
+  "transitions": {
+    "predicted": 12,
+    "baseAsserted": 8,
+    "expandedAsserted": 12,
+    "preFixConforming": 10,
+    "postFixConforming": 12
+  },
+  "faults": {
+    "eligible": 8,
+    "baseDetected": 3,
+    "expandedDetected": 8,
+    "baseRate": 0.375,
+    "expandedRate": 1.0,
+    "percentagePointDifference": 62.5,
+    "excludedEquivalentTrials": 1
+  },
+  "c6Detailed": {
+    "subscenarios": 3,
+    "assertions": 12,
+    "conformingAfterFix": 12
+  }
+}

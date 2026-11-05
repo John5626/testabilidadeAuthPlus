@@ -1,0 +1,8 @@
+{
+  "started_at": "2026-11-03T10:12:50.1456402-03:00",
+  "frontend_head": "ANONYMIZED_SOURCE_REVISION",
+  "controller_sha256": "9FC348BE0D4378DBED99ACA7F67AE5029AC8FB4E9215C0FBC45311BB88435607",
+  "widget_test_sha256": "C681AFA9F140FA25C993C488D90A3C7AFE17416E9B5427019299F958E2096473",
+  "flutter_version": "Flutter 3.47.0 • channel stable • https://github.com/flutter/flutter.git\nFramework • revision 4cf2416426 (3 months ago) • 2026-08-11 11:53:49 -0700\nEngine • hash 59d54a2b2896a6bbf356c94b7fac7b9e235bdacd (revision 5f77625673) (2 months ago) • 2026-08-11 16:38:36.000Z\nTools • Dart 3.13.0 • DevTools 2.60.0",
+  "protocol_sha256": "CE9434EC473C5701DD7D97911165696EBDCFFD81BC55EBD281C45AF11D0364D1"
+}

@@ -1,0 +1,4 @@
+strategy,composition_tests,nominal_n,median_ms,min_ms,max_ms,non_modal_results,planned_denominator,valid_denominator,detected_stable,detection_rate,detected_ids,incremental_gain_count,incremental_gain_ids
+S0,17,10,9298.0,9218,9425,0,2,2,2,1.0,N4;N5,0,
+S1,22,10,9327.5,9206,9411,0,2,2,2,1.0,N4;N5,0,
+S2,27,10,9345.0,9261,9565,0,8,7,7,1.0,N1;N2;N4;N5;N6;N7;N8,5,N1;N2;N6;N7;N8

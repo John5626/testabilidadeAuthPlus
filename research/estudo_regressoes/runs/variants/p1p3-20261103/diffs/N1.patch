@@ -1,0 +1,14 @@
+warning: in the working copy of 'C:\artifact\research\estudo_regressoes\runs\variants\p1p3-20261103\n1-nominal-source.bin', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'C:\artifact\frontend\lib\src\features\studyapp\presentation\studyapp_flow_controller.dart', LF will be replaced by CRLF the next time Git touches it
+diff --git "a/C:\\artifact\\research\\estudo_regressoes\\runs\\variants\\p1p3-20261103\\n1-nominal-source.bin" "b/C:\\artifact\\frontend\\lib\\src\\features\\studyapp\\presentation\\studyapp_flow_controller.dart"
+index fbbdeab..c6ec405 100644
+--- "a/C:\\artifact\\research\\estudo_regressoes\\runs\\variants\\p1p3-20261103\\n1-nominal-source.bin"
++++ "b/C:\\artifact\\frontend\\lib\\src\\features\\studyapp\\presentation\\studyapp_flow_controller.dart"
+@@ -109,7 +109,6 @@ class StudyAppFlowController extends ChangeNotifier {
+   }
+ 
+   Future<void> logout() async {
+-    sessionStore.clear();
+     await sessionStore.flush();
+     _workspace = null;
+     _pendingPolicies = const [];

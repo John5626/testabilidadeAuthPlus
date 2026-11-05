@@ -1,0 +1,9 @@
+{
+  "revision": "ANONYMIZED_BASE_REVISION",
+  "command": "flutter test test/studyapp_flow_controller_test.dart --reporter expanded",
+  "date": "2026-10-31",
+  "tests": 17,
+  "passed": 17,
+  "failed": 0,
+  "exitCode": 0
+}

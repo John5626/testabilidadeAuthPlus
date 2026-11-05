@@ -1,0 +1,7 @@
+00:00 +0: loading C:/artifact/frontend/test/cotb_widget_regression_test.dart
+00:00 +0: W1 login pendente termina com erro visível e recuperável
+00:01 +1: W2 MFA recusado preserva a tela e cancelar retorna ao login
+00:01 +2: W2 challenge MFA expirado não chama verificação remota
+00:01 +3: W3 login persiste, reinício retoma e logout remove sessão
+00:02 +4: W4 falha transitória na retomada oferece retry com sucesso
+00:02 +5: All tests passed!

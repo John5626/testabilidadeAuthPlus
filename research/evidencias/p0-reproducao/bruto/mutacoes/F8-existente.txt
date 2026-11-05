@@ -1,0 +1,43 @@
+
+00:00 +0: loading C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart                                                                     
+00:01 +0: loading C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart                                                                     
+00:02 +0: loading C:/artifact/research/experimento/frontend-historico/test/studyapp_flow_controller_test.dart                                                                     
+00:02 +0: cadastro persiste no backend e encaminha para o login                                                                                                                                        
+00:02 +1: cadastro persiste no backend e encaminha para o login                                                                                                                                        
+00:02 +1: repositório mockado mantém recurso criado atrás do contrato                                                                                                                                  
+00:02 +2: repositório mockado mantém recurso criado atrás do contrato                                                                                                                                  
+00:02 +2: convite guarda somente resumo e devolve token transacional                                                                                                                                   
+00:03 +2: convite guarda somente resumo e devolve token transacional                                                                                                                                   
+00:03 +3: convite guarda somente resumo e devolve token transacional                                                                                                                                   
+00:03 +3: Admin organização cria e desativa equipe preservando o registro                                                                                                                              
+00:03 +4: Admin organização cria e desativa equipe preservando o registro                                                                                                                              
+00:03 +4: convidado sem conta cria credencial e aceita convite uma vez                                                                                                                                 
+00:04 +4: convidado sem conta cria credencial e aceita convite uma vez                                                                                                                                 
+00:05 +4: convidado sem conta cria credencial e aceita convite uma vez                                                                                                                                 
+00:05 +5: convidado sem conta cria credencial e aceita convite uma vez                                                                                                                                 
+00:05 +5: convidado com conta existente aceita somente o novo vínculo                                                                                                                                  
+00:05 +6: convidado com conta existente aceita somente o novo vínculo                                                                                                                                  
+00:05 +6: link abre convite e descarta token ao sair do fluxo                                                                                                                                          
+00:05 +7: link abre convite e descarta token ao sair do fluxo                                                                                                                                          
+00:05 +7: login real sessão restaurada abre o workspace sem novo login                                                                                                                                 
+00:05 +8: login real sessão restaurada abre o workspace sem novo login                                                                                                                                 
+00:05 +8: login real sessão recusada na reabertura volta ao login                                                                                                                                      
+00:05 +9: login real sessão recusada na reabertura volta ao login                                                                                                                                      
+00:05 +9: login real mantém somente access token e libera workspace no sucesso                                                                                                                         
+00:06 +9: login real mantém somente access token e libera workspace no sucesso                                                                                                                         
+00:06 +10: login real mantém somente access token e libera workspace no sucesso                                                                                                                        
+00:06 +10: login real challenge de termos não cria sessão nem libera workspace                                                                                                                         
+00:06 +11: login real challenge de termos não cria sessão nem libera workspace                                                                                                                         
+00:06 +11: login real challenge de MFA fica isolado e preparado para DEV-106                                                                                                                           
+00:06 +12: login real challenge de MFA fica isolado e preparado para DEV-106                                                                                                                           
+00:06 +12: login real MFA válido cria sessão ACCESS e somente então libera workspace                                                                                                                   
+00:06 +13: login real MFA válido cria sessão ACCESS e somente então libera workspace                                                                                                                   
+00:06 +13: login real MFA inválido mantém challenge isolado e workspace bloqueado                                                                                                                      
+00:06 +14: login real MFA inválido mantém challenge isolado e workspace bloqueado                                                                                                                      
+00:06 +14: login real conflito no aceite recarrega versões e exige novo consentimento                                                                                                                  
+00:06 +15: login real conflito no aceite recarrega versões e exige novo consentimento                                                                                                                  
+00:06 +15: login real credencial inválida usa resposta uniforme e limpa estado                                                                                                                         
+00:06 +16: login real credencial inválida usa resposta uniforme e limpa estado                                                                                                                         
+00:06 +16: login real ignora novo envio enquanto o login está em andamento                                                                                                                             
+00:06 +17: login real ignora novo envio enquanto o login está em andamento                                                                                                                             
+00:06 +17: All tests passed!                                                                                                                                                                           

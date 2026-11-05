@@ -1,0 +1,18 @@
+{
+  "controls": [
+    "AuthenticationRepository",
+    "WorkspaceRepository",
+    "AuthSessionStore"
+  ],
+  "subject": "StudyAppFlowController",
+  "observations": [
+    "stage / busy / erro",
+    "workspace",
+    "session / challenge"
+  ],
+  "temporalGuard": "geracao da autenticacao",
+  "oracles": [
+    "matriz de transicoes C1-C6",
+    "falhas dirigidas F1-F8"
+  ]
+}

@@ -1,0 +1,58 @@
+00:00 +0: loading C:/artifact/frontend/test/studyapp_flow_controller_test.dart
+00:00 +0: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: cadastro persiste no backend e encaminha para o login
+00:00 +1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato
+00:00 +2: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato
+00:00 +3: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato
+00:00 +4: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato
+00:00 +5: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato
+00:00 +6: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: repositório mockado mantém recurso criado atrás do contrato
+00:00 +7: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W1 login pendente termina com erro visível e recuperável
+00:01 +8: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W1 login pendente termina com erro visível e recuperável
+00:01 +9: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: Admin organização cria e desativa equipe preservando o registro
+00:01 +10: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: Admin organização cria e desativa equipe preservando o registro
+00:01 +11: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W2 challenge MFA expirado não chama verificação remota
+00:01 +12: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: convidado sem conta cria credencial e aceita convite uma vez
+00:02 +12: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W3 login persiste, reinício retoma e logout remove sessão
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: null
+  Actual:
+'{"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl91c2UiOiJBQ0NFU1MiLCJhdWQiOiJhdXRocGx1cy1hcGkifQ.signature","tokenType":"Bearer","expiresAt":"2099-01-01T00:00:00.000Z"}'
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///C:/artifact/frontend/test/cotb_widget_regression_test.dart:189:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///C:/artifact/frontend/test/cotb_widget_regression_test.dart line 189
+The test description was:
+  W3 login persiste, reinício retoma e logout remove sessão
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:02 +12 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: convidado sem conta cria credencial e aceita convite uma vez
+00:02 +12 -1: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W3 login persiste, reinício retoma e logout remove sessão [E]
+  Test failed. See exception logs above.
+  The test description was: W3 login persiste, reinício retoma e logout remove sessão
+  
+00:02 +13 -1: C:/artifact/frontend/test/cotb_widget_regression_test.dart: W4 falha transitória na retomada oferece retry com sucesso
+00:02 +14 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: convidado com conta existente aceita somente o novo vínculo
+00:03 +15 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: link abre convite e descarta token ao sair do fluxo
+00:03 +16 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real sessão restaurada abre o workspace sem novo login
+00:03 +17 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real sessão recusada na reabertura volta ao login
+00:03 +18 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real mantém somente access token e libera workspace no sucesso
+00:03 +19 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real challenge de termos não cria sessão nem libera workspace
+00:04 +20 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real challenge de MFA fica isolado e preparado para DEV-106
+00:04 +21 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real MFA válido cria sessão ACCESS e somente então libera workspace
+00:04 +22 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real MFA inválido mantém challenge isolado e workspace bloqueado
+00:04 +23 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real conflito no aceite recarrega versões e exige novo consentimento
+00:04 +24 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real credencial inválida usa resposta uniforme e limpa estado
+00:04 +25 -1: C:/artifact/frontend/test/studyapp_flow_controller_test.dart: login real ignora novo envio enquanto o login está em andamento
+00:04 +26 -1: Some tests failed.
+
+Failing tests:
+  C:/artifact/frontend/test/cotb_widget_regression_test.dart: W3 login persiste, reinício retoma e logout remove sessão
